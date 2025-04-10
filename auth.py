@@ -19,6 +19,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         # Показываем кнопки "Обо мне" и "Выйти"
         keyboard = [
+            [KeyboardButton("Следить за обновлениями расписания")],
             [KeyboardButton("Обо мне")],
             [KeyboardButton("Выйти")]
         ]
@@ -101,6 +102,7 @@ async def get_password(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
                 # Создаем клавиатуру с кнопками "Обо мне" и "Выйти"
                 keyboard = [
+                    [KeyboardButton("Следить за обновлениями расписания")],
                     [KeyboardButton("Обо мне")],
                     [KeyboardButton("Выйти")]
                 ]
